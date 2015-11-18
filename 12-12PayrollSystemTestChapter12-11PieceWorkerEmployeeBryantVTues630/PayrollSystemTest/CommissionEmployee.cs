@@ -1,8 +1,9 @@
 ﻿// Fig. 12.7: CommissionEmployee.cs
 // CommissionEmployee class that extends Employee.
 using System;
+using PayrollSystemTest;
 
-public class CommissionEmployee : Employee
+public class CommissionEmployee : Employee 
 {
    private decimal grossSales; // gross weekly sales
    private decimal commissionRate; // commission percentage
@@ -51,10 +52,16 @@ public class CommissionEmployee : Employee
    } // end property CommissionRate
 
    // calculate earnings; override abstract method Earnings in Employee
-   public override decimal Earnings()
+   public override decimal GetPaymentAmount()
    {
       return CommissionRate * GrossSales;
-   } // end method Earnings              
+   } // end method GetPaymentAmount
+
+   // calculate earnings; override abstract method Earnings in Employee
+   public override decimal Earnings()
+   {
+       return CommissionRate * GrossSales;
+   } // end method Earnings       
 
    // return string representation of CommissionEmployee object
    public override string ToString()

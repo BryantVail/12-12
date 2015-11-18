@@ -17,8 +17,8 @@ using System.Text;
         //Constructor()
         public PieceWorker(string first, string last, string ssn, decimal wagePerPiece, decimal piecesProduced): base(first, last, ssn)
         {
-            pieces = piecesProduced;
-            wage = wagePerPiece;
+            Pieces = piecesProduced;
+            Wage = wagePerPiece;
 
         }//end Constructor(firstN, lastN, ssn, wage, peicesProduced)=count: 5 parameter constructor
 

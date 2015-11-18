@@ -1,9 +1,9 @@
 ﻿// Fig. 12.4: Employee.cs
 // Employee abstract base class.
 
+using PayrollSystemTest;
 
-
-public abstract class Employee
+public abstract class Employee : IPayable
 {
    // auto-implemented read-only property FirstName
    public string FirstName { get; private set; }

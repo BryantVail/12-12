@@ -1,6 +1,7 @@
 ﻿// Fig. 12.6: HourlyEmployee.cs
 // HourlyEmployee class that extends Employee.
 using System;
+using PayrollSystemTest;
 
 public class HourlyEmployee : Employee
 {
@@ -57,7 +58,19 @@ public class HourlyEmployee : Employee
          return Wage * Hours;
       else
          return ( 40 * Wage ) + ( ( Hours - 40 ) * Wage * 1.5M );
-   } // end method Earnings                                      
+   } // end method Earnings  
+    
+    public override decimal GetPaymentAmount()
+   {
+        if(Hours <= 40)
+        {
+            return Wage * Hours;
+         }
+        else
+        {
+            return (40 * Wage) + ((Hours - 40) * Wage * 1.5M);
+        }//end if
+   }//End Interface IPayable Method 'GetPaymentAmount'            
 
    // return string representation of HourlyEmployee object
    public override string ToString()

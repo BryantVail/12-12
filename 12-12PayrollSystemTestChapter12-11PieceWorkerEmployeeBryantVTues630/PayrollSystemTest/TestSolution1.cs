@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using PayrollSystemTest;
 
 
 
@@ -33,7 +34,7 @@ using System.Text;
                
                 for (int i = 0; i <= 5; i++)
                 {
-                    Console.WriteLine("\n" + Employees[i].ToString() + "\t\t" + Employees[i].Earnings());
+                    Console.WriteLine("\n" + Employees[i].ToString() + "\t\t" + Employees[i].Earnings() + Employees[i].);
                 }
 
                 Console.ReadLine();
