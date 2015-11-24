@@ -13,8 +13,8 @@ public class CommissionEmployee : Employee
       decimal sales, decimal rate )
       : base( first, last, ssn )
    {
-      grossSales = sales; // validate gross sales via property
-      commissionRate = rate; // validate commission rate via property
+      GrossSales = sales; // validate gross sales via property
+     CommissionRate = rate; // validate commission rate via property
    } // end five-parameter CommissionEmployee constructor
 
    // property that gets and sets commission employee's gross sales

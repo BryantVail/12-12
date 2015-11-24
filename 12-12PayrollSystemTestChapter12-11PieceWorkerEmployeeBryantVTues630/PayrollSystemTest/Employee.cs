@@ -31,7 +31,16 @@ public abstract class Employee : IPayable
 
    // abstract method overridden by derived classes
    public abstract decimal Earnings(); // no implementation here
+
+    public override decimal GetPaymentAmount()
+   {
+       return 0;
+        //put code here
+   }
 } // end abstract class Employee
+
+
+
  
 
 

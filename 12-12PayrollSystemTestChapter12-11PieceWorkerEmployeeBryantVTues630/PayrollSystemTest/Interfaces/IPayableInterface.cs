@@ -7,6 +7,6 @@ namespace PayrollSystemTest
 {
     public abstract class IPayable
     {
-        decimal GetPaymentAmount();
+       public abstract decimal GetPaymentAmount();
     }//end Interface IPayable
 }

@@ -16,3 +16,8 @@ C:\Users\Bvail\Documents\GitHub\12.11PieceWorkerClassCshBryantV11172015\PayrollS
 C:\Users\Bvail\Documents\GitHub\12.11PieceWorkerClassCshBryantV11172015\PayrollSystemTestChapter12-11PieceWorkerEmployeeBryantVTues630\PayrollSystemTest\obj\Debug\PayrollSystemTest.pdb
 C:\Users\Bvail\Documents\GitHub\12-12\12-12PayrollSystemTestChapter12-11PieceWorkerEmployeeBryantVTues630\PayrollSystemTest\obj\Debug\PayrollSystemTest.exe
 C:\Users\Bvail\Documents\GitHub\12-12\12-12PayrollSystemTestChapter12-11PieceWorkerEmployeeBryantVTues630\PayrollSystemTest\obj\Debug\PayrollSystemTest.pdb
+C:\Users\Bryant\Documents\GitHub\12-12\12-12PayrollSystemTestChapter12-11PieceWorkerEmployeeBryantVTues630\PayrollSystemTest\obj\Debug\PayrollSystemTest.exe
+C:\Users\Bryant\Documents\GitHub\12-12\12-12PayrollSystemTestChapter12-11PieceWorkerEmployeeBryantVTues630\PayrollSystemTest\obj\Debug\PayrollSystemTest.pdb
+C:\Users\Bryant\Documents\GitHub\12-12\12-12PayrollSystemTestChapter12-11PieceWorkerEmployeeBryantVTues630\PayrollSystemTest\obj\Debug\PayrollSystemTest.csprojResolveAssemblyReference.cache
+C:\Users\Bryant\Documents\GitHub\12-12\12-12PayrollSystemTestChapter12-11PieceWorkerEmployeeBryantVTues630\PayrollSystemTest\bin\Debug\PayrollSystemTest.exe
+C:\Users\Bryant\Documents\GitHub\12-12\12-12PayrollSystemTestChapter12-11PieceWorkerEmployeeBryantVTues630\PayrollSystemTest\bin\Debug\PayrollSystemTest.pdb

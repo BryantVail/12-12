@@ -32,10 +32,29 @@ using PayrollSystemTest;
 
                 Console.WriteLine("Employees Earnings & System Signature through ToString: \n\n{0}\t\t{1}", "Earnings:", "String:");
                
-                for (int i = 0; i <= 5; i++)
+               
+                foreach(Employee employee in Employees)
                 {
-                    Console.WriteLine("\n" + Employees[i].ToString() + "\t\t" + Employees[i].Earnings() + Employees[i].);
-                }
+                    Console.WriteLine( employee.GetPaymentAmount() );
+                }//end foreach
+                
+                
+                for (int i = 0; i <= 4; i++)
+                {
+                    
+
+                    if (Employees[i].GetType is BasePlusCommissionEmployee)
+                    {
+                        BasePlusCommissionEmployee employee =
+                            (BasePlusCommissionEmployee)Employees[i];
+
+                            employee.BaseSalary =  employee.BaseSalary * 1.1M;
+
+
+                    }//end if
+
+                    Console.WriteLine("\n" + Employees[i].GetPaymentAmount() /* + "\t\t" + Employees[i].Earnings() + Employees[i].*/);
+                }//end for statement printing GetPaymentAmount
 
                 Console.ReadLine();
 

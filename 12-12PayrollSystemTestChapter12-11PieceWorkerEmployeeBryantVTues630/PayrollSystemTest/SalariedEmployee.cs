@@ -1,6 +1,7 @@
 ﻿// Fig. 12.5: SalariedEmployee.cs
 // SalariedEmployee class that extends Employee.
 using System;
+using PayrollSystemTest;
 
 public class SalariedEmployee : Employee
 {
@@ -11,7 +12,7 @@ public class SalariedEmployee : Employee
       decimal salary )
       : base( first, last, ssn )
    {
-      weeklySalary = salary; // validate salary via property
+      WeeklySalary = salary; // validate salary via property
    } // end four-parameter SalariedEmployee constructor
 
    // property that gets and sets salaried employee's salary
@@ -35,7 +36,13 @@ public class SalariedEmployee : Employee
    public override decimal Earnings()
    {
       return WeeklySalary;
-   } // end method Earnings          
+   } // end method Earnings     
+    
+    public override decimal GetPaymentAmount()
+   {
+
+       return WeeklySalary;
+   }//GetPaymentAmount End
 
    // return string representation of SalariedEmployee object
    public override string ToString()

@@ -67,6 +67,11 @@ using System.Text;
 
         }//end MEthod Earnings
 
+        public override decimal GetPaymentAmount()
+        {
+            return Pieces* Wage;
+        }
+
         public override string ToString()
         {
             return string.Format("Piece Worker Employee: {0}\n{1}: {2:C}; {3}: {4:F2}", base.ToString(),"Wage per piece produced: ", Wage.ToString(), "Pieces Produced", Pieces.ToString());
