@@ -6,7 +6,12 @@ using PayrollSystemTest;
 
 
 
-
+//Grade
+//If you had tested this, you would have found that the bonus is never added to the BasePlusCommissionEmployee
+//That is because you are testing Employees[i].GetType() is BasePlusCommissionEmployee
+//The GetType() method always returns a system.type which would never be BasePlusCommissionEmployee
+//You would use the following to check the type
+//Employees[i] is BasePlusCommissionEmployee
     class TestSolution1
     {
         public static void Main( string [] args)
@@ -43,7 +48,7 @@ using PayrollSystemTest;
                 {
                     
 
-                    if (Employees[i].GetType is BasePlusCommissionEmployee)
+                    if (Employees[i].GetType() is BasePlusCommissionEmployee)
                     {
                         BasePlusCommissionEmployee employee =
                             (BasePlusCommissionEmployee)Employees[i];
